@@ -41,7 +41,7 @@ The Resignation Management System is a full-stack MERN (MongoDB, Express, React,
   Calendarific (for holiday validation)
 
 - **Email Notifications:**  
-  (Removed in this version; originally integrated with Nodemailer)
+  (integrated with Nodemailer)
 
 ## Setup Instructions
 
@@ -58,3 +58,27 @@ The Resignation Management System is a full-stack MERN (MongoDB, Express, React,
    ```bash
    git clone https://github.com/yourusername/resignation-management.git
    cd resignation-management/server
+
+2. **Install dependencies:**
+
+    bash
+    Copy
+    npm install
+    Configure Environment Variables:
+
+3. **Create a .env file in the server directory with contents similar to:**
+
+    env
+    
+    PORT=8080
+    MONGO_URI=mongodb://localhost:27017/resignationApp
+    JWT_SECRET=SUPER_SECRET_JWT_KEY
+    CALENDARIFIC_API_KEY=your_calendarific_api_key
+
+
+4. **Run the Server:**
+
+    npm start
+    (Or use nodemon if available: nodemon server.js)
+
+The server should now be running on http://localhost:8080.
