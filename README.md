@@ -1,4 +1,4 @@
-Live Link -> 
+### Live Link -> https://superlative-hotteok-f0581c.netlify.app/
 # Resignation Management System
 
 ## Overview
